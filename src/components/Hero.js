@@ -1,16 +1,14 @@
-import React from "react";
+import React from "react"
 
-const Hero = () => {
-  return (
-    <div className="hero">
-      <img src="images/Group 77.png" alt="" />
-      <h1>Online Experineces</h1>
-      <p>
-        Join unique interactive activiities led by one-of-a-kind host -all
-        without leaving home.
-      </p>
-    </div>
-  );
-};
+function Hero() {
+    return (
+        <section className="hero">
+            <img src="images/Group 77.png" className="hero--photo" alt="group of images" />
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--text">Join unique interactive activities led by 
+            one-of-a-kind hosts—all without leaving home.</p>
+        </section>
+    )
+}
 
-export { Hero };
+export { Hero }

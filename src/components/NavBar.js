@@ -1,13 +1,11 @@
 import React from "react";
 
-const NavBar = () => {
+function NavBar() {
   return (
-    <div className="NavBar">
-      <nav>
-        <img src="images/airbnb 1.png" alt="" />
-      </nav>
-    </div>
+    <nav>
+      <img src="images/airbnb 1.png" className="nav--logo" alt="airbnb logo"/>
+    </nav>
   );
-};
+}
 
 export { NavBar };
